@@ -17,3 +17,7 @@ This project is about building a deep learning model for sign language detection
 2. Import Necessary Libraries: Import the necessary Keras and other libraries.
 3. Run the ASL_detction.ipynb file on Google Colab to generate **signlanguagedetectionmodel48x48.json** and **signlanguagedetectionmodel48x48.h5** files. Sace them in the same repository where your project has been stored.
 4. Open and run the files: collectdata.py, realtimedetection.py and split.py on VSCode or your preferred Py environment.
+
+# Demo Video
+
+https://github.com/get-aastha/Sign_Language_Detection_Project/assets/108509128/88ac640e-da2d-43ce-8ee6-7e8c78723848
