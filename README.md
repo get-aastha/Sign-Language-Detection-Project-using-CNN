@@ -13,11 +13,7 @@ This project is about building a deep learning model for sign language detection
 
 # Instructions
 
-1. Clone the Dataset: The first step is to clone the dataset from the GitHub repository using the command !git clone https://github.com/kumarvivek9088/aslsigndataset.git.
+1. Make sure to unzip all the zipped files. I've done that to compress and store space.
 2. Import Necessary Libraries: Import the necessary Keras and other libraries.
-3. Data Preprocessing: Use ImageDataGenerator to preprocess the images. This includes rescaling the images and splitting the dataset into training and validation sets.
-4. Model Building: Build a Sequential model with multiple Convolutional layers, MaxPooling layers, Dropout layers, and Dense layers. The model uses ‘relu’ activation function for the hidden layers and ‘softmax’ for the output layer.
-5. Compile the Model: Compile the model using ‘adam’ optimizer, ‘categorical_crossentropy’ as the loss function, and ‘accuracy’ as the metric.
-6. Train the Model: Train the model using the fit method. The training data is the train_generator, and the validation data is the validation_generator. The model is trained for 100 epochs.
-7. TensorBoard: Use TensorBoard for visualizing the training process. The logs are stored in the “Logs” directory.
-8. Save the Model: Finally, save the model in JSON format and the weights in H5 format.
+3. Run the ASL_detction.ipynb file on Google Colab to generate **signlanguagedetectionmodel48x48.json** and **signlanguagedetectionmodel48x48.h5** files. Sace them in the same repository where your project has been stored.
+4. Open and run the files: collectdata.py, realtimedetection.py and split.py on VSCode or your preferred Py environment.
